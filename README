@@ -1,0 +1,12 @@
+Magda Sánchez
+Colaborativa
+July 2011
+
+--------------------
+LED MATRIX DISPLAY
+--------------------
+For Programming the Led Matrix Display with the HT1632 Microcontroller we have used the following library found on GitHub, we thank Gauravmm for sharing his code, it is an excellent library.
+
+https://github.com/gauravmm/HT1632-for-Arduino
+
+
