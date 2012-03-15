@@ -9,4 +9,10 @@ For Programming the Led Matrix Display with the HT1632 Microcontroller we have u
 
 https://github.com/gauravmm/HT1632-for-Arduino
 
-
+--------------------
+STRING LIBRARY
+--------------------
+We do not use the processing string library for managing string of characters. This is due to some bugs when reusing strings in Arduino v0022.
+Therefore we use the C language string approach, only fixed string/static size are allocated along the code, we do not use dynamic pointers. It words perfectly, no memory leakage at all.
+For more information read this post:
+http://www.magdasanchez.es/2011/12/arduino-0022-problems-coming-from-string-and-serial-libraries/
