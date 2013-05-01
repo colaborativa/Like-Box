@@ -2,6 +2,8 @@ Magda Sánchez
 Colaborativa
 July 2011
 
+Code developed using Arduino v0022 and processing language. This repository contains the code for controlling five Like Box unit, each is made up of one Arduino ethernet and two ht1632 Matrix Display from sure electronics. The code needs to be customized with the Remote Server IP address, the Arduino MAC addresses and the php script calls that update the facebook or twitter information.
+
 --------------------
 LED MATRIX DISPLAY
 --------------------
